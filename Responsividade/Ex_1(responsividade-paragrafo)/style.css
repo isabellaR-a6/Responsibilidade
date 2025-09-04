@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px; /*Margem de dentro do site*/
+}
+
+p{
+    width: 80%;           /*Largura do paragrafo (também usado como alinhamento) para quando a pessoa diminuir a tela o p diminuir junto*/
+    background-color: rgb(181, 176, 176);
+    padding: 10px;
+}
+
+.vermelho{
+    width: 800px;
+    height: 100px;
+    background-color: brown;
+}
+
+@media (max-width:768px){    /*Quando chegar nesses pixels de teste tal cisa acontece*/
+    p{ 
+        width: 10%;  /*O paragrafo diminui 10%*/
+    }
+
+    .vermelho{
+    margin-top: 300px; /*essa div desce quando a tela diminui e chega no 768px q é a menor tela*/
+    }
+}

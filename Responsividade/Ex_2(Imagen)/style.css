@@ -1,0 +1,7 @@
+
+img{
+    border-radius: 10px;  /*Deixa arredondada*/
+    height: auto;  /*Altura automatica*/
+    max-width: 100%;  /*Nunca ultrapassa a altura da tela*/
+    
+}
